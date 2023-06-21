@@ -1,0 +1,36 @@
+
+@media (max-width:768px) {
+    body{
+        background-repeat: no-repeat;
+        background-image: url(../img/bg-mobile.svg);
+        background-size: contain;
+        width: 400px;
+        margin: 30px auto;
+        text-align: center;  
+    }
+    img{
+        max-width: 100%;
+    }
+    .main{
+        grid-template-columns: 1fr;
+    }
+
+   .main .info h1{
+    font-size: 2rem;
+   }
+
+   .main .info p{
+    margin: 0;
+    margin-top: 40px;
+    font-size: 1rem;
+   }
+
+   .btn{
+    width: 50%;
+    margin-top: 20px;
+   }
+
+   .social{
+    justify-content: center;
+   }
+}

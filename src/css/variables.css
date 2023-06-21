@@ -1,0 +1,10 @@
+/* FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600;700&display=swap');
+
+/*COLOR*/
+
+:root{
+    --Vioilet: hsl(257, 40%, 49%);
+    --Soft-Margeta:hsl(300, 69%, 71%);
+}
